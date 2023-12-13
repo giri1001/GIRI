@@ -1,0 +1,63 @@
+<form>
+    <fieldset>
+        <center>
+            <legent><strong>Registeration</strong></legent>
+            <hr>
+        </center>
+        <table align="center">
+            <tr>
+                <td><label>name</label></td>
+                <td><input type="text" placeholder="enter your name here" autofocus required></td>
+            </tr>
+            <tr>
+                <td><label>phone number</label></td>
+                <td><input type="number" id="phone number" name="phone number" pattern="[0-9]{10}"></td>
+            </tr>
+            <tr colspan="2">
+                <td><label>gender</label></td>
+                <td><input type="radio" name="gender">male&nbsp;<input type="radio" name="gender">female</td>
+            </tr>
+            <tr>
+                <td><label>mail id</label></td>
+                <td><input type="email" placeholder="enter your email"><br></td>
+            </tr>
+            <tr>
+                <td><label>Date of birth</label></td>
+                <td><input type="date" placeholder="enter your date of birth"><br></td>
+            </tr>
+            <tr>
+                <td><label>current city</label></td>
+                <td><input type="text" placeholder="current city"><br></td>
+            </tr>
+            <tr>
+                <td><label>password</label></td>
+                <td><input type="password" placeholder="password"></td>
+            </tr>
+            <tr>
+                <td><label>conform password</label></td>
+                <td><input type="password" placeholder="conform password"></td>
+            </tr>
+
+            <tr>
+                <td><label>nationality</label></td>
+                <td><input type="checkbox">indian<input type="checkbox">others<br></td>
+            </tr>
+            <tr colspan="10" rowspan="10">
+                <td><label>If others mention it</label></td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td><label>audio captcha</label></td>
+                <td><input type="text" placeholder="enter the captcha"></td>
+            </tr>
+            <tr>
+                <td><audio controls>
+                    <source src="C:\Users\santh\OneDrive\Desktop\sample html\bookmyshow\captcha.mp3">s
+                </audio></td>
+            </tr>
+        </table>
+    </fieldset>
+    <center>
+        <input type="submit" value="submit" onclick="alert('Register successfully')" style=" font-size:large;font-weight: 1000;"></button>
+    </center>
+</form>
